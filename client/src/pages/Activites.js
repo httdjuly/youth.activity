@@ -201,7 +201,9 @@ function ActivityListPage() {
                                 <img className="activity-detail-icon" src={profile} alt="Profile icon" />
                                 <p>{activity.numberMembers} Sinh viên</p>
                             </div>
-                            <button className="btn btn-primary btn-sm detail-button">Chi tiết</button>
+                            <Link to={`/activity/${activity.id}`} className="btn btn-primary btn-sm detail-button">
+                                Chi tiết
+                            </Link>
                         </div>
                     ))
                 ) : (

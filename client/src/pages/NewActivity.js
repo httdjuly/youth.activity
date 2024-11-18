@@ -38,7 +38,7 @@ function NewActivity({ onConfirm }) {
 
         const updatedActivityData = {
             ...activityData,
-            numberMembers: parseInt(activityData.numberMembers) || 0, // Sử dụng 0 làm giá trị mặc định nếu không thể chuyển đổi
+            number_members: parseInt(activityData.numberMembers) || 0, // Sử dụng 0 làm giá trị mặc định nếu không thể chuyển đổi
             score: parseInt(activityData.score) || 0,
         };
         try {
