@@ -79,7 +79,7 @@ function ActivityDetailPage() {
     const [showUpdateActive, setShowUpdateActive] = useState(false);
 
     const handleConfirmRegistration = () => {
-        fetch(`/api/register-activity`, {
+        fetch(`/api/activities/${id}/attend`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
