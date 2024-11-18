@@ -54,7 +54,7 @@ function VPHomePage() {
                         <div class="user-account account-icon-container">
                             <img class="user-icon" src={user} />
                             <div class="user-infor">                                    
-                                <div class="user-name">Cinamon</div>
+                                <div class="user-name">Thùy Dương</div>
                                 <div class="user-role">Tổ văn phòng</div>
                             </div>
                         </div>
@@ -77,7 +77,7 @@ function VPHomePage() {
             </div>
 
             <div class ="row pg-welcome">
-                <div>Chào mừng bạn quay lại với HUHU,</div>
+                <div>Chào mừng bạn quay lại với YOUTH,</div>
             </div>
             <div class = "row">
                 <img class="check-icon" src={checkicon}/>

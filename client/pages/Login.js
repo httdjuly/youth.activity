@@ -63,7 +63,7 @@ function Login() {
         <div class="login-container">
             <div class="body-container">
             <div class="welcome-quote">
-                Chào mừng đến với HUHU!
+                Chào mừng đến với YOUTH!
             </div>
 
             <div class="login-title">

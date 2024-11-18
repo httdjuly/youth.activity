@@ -20,8 +20,8 @@
 }
 
 .modify-info {
-  color: rgb(58, 101, 246);
-  border-color: rgb(58, 101, 246);
+  color: rgba(19, 53, 166, 1);
+  border-color: rgba(19, 53, 166, 1);
   font-weight: bold;
   width: 200px;
   background: #fff;

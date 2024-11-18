@@ -136,9 +136,9 @@ function ActivityContentTab() {
                 <div class="contentright">
                     <div class="actdetail-title">Thông tin liên hệ</div>
                     <p>
-                        https://www.facebook.com/BKCSE.Multimedia <br></br>
+                    https://www.facebook.com/DoanHoiITUTE <br></br>
                         +84 1234 5678 99 (Admin)<br>
-                        </br>Văn phòng Đoàn khoa KH&KTMT, BK.B6-602
+                        </br>Văn phòng Đoàn - Hội khoa CNTT, Lầu 2, Trung tâm Tin học
                     </p>
                 </div>
             </div>

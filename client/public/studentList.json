@@ -1,43 +1,43 @@
 [
     {
         "activityNumber": "0000001", 
-        "activityName": "Trực phát thiết bị đồ án đa ngành", 
-        "activityTime": "27/10/2023", 
+        "activityName": "Chủ Nhật Xanh", 
+        "activityTime": "27/10/2024", 
         "studentAmount": 10, 
-        "holder": "Le Phan Thuy Tien", 
+        "holder": "Nguyen Quang Thanh", 
         "state": "Đã kết thúc"
     },
 
     {
         "activityNumber": "0000002", 
-        "activityName": "Trực phát thiết bị đồ án đa ngành", 
-        "activityTime": "27/10/2023", 
+        "activityName": "Chủ Nhật Xanh", 
+        "activityTime": "27/10/2024", 
         "studentAmount": 10, 
-        "holder": "Le Phan Thuy Tien", 
+        "holder": "Nguyen Quang Thanh", 
         "state": "Đã kết thúc"
     },
     {
         "activityNumber": "0000003", 
-        "activityName": "Trực phát thiết bị đồ án đa ngành", 
-        "activityTime": "27/10/2023", 
+        "activityName": "Chủ Nhật Xanh", 
+        "activityTime": "27/10/2024", 
         "studentAmount": 10, 
-        "holder": "Le Phan Thuy Tien", 
+        "holder": "Nguyen Quang Thanh", 
         "state": "Đã kết thúc"
     },
     {
         "activityNumber": "0000004", 
-        "activityName": "Trực phát thiết bị đồ án đa ngành", 
-        "activityTime": "27/10/2023", 
+        "activityName": "Chủ Nhật Xanh", 
+        "activityTime": "27/10/2024", 
         "studentAmount": 10, 
-        "holder": "Le Phan Thuy Tien", 
+        "holder": "Nguyen Quang Thanh", 
         "state": "Đã kết thúc"
     },
     {
         "activityNumber": "0000005", 
-        "activityName": "Trực phát thiết bị đồ án đa ngành", 
-        "activityTime": "27/10/2023", 
+        "activityName": "Chủ Nhật Xanh", 
+        "activityTime": "27/10/2024", 
         "studentAmount": 10, 
-        "holder": "Le Phan Thuy Tien", 
+        "holder": "Nguyen Quang Thanh", 
         "state": "Đã kết thúc"
     }
 ]

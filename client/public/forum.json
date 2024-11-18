@@ -7,7 +7,7 @@
                 "username": "Minh Thuận",
                 "role": "host",
                 "title": "Thông báo",
-                "threadTime": "18g00 27/10/2023",
+                "threadTime": "18g00 27/10/2024",
                 "content": "Các bạn ngày mai tập trung tại sảnh A3, trường Đại học Bách khoa cơ sở Lý Thường Kiệt trước 8g00 nhé. Trang phục lịch sự.",
                 "response": null
             },
@@ -16,11 +16,11 @@
                 "username": "Đỗ Tiến",
                 "role": "attendance",
                 "title": "Hỏi về trang phục",
-                "threadTime": "19g00 27/10/2023",
+                "threadTime": "19g00 27/10/2024",
                 "content": "Cho mình hỏi nếu mình không chuẩn bị quần tây đen được thì có thể thay bằng quần tối mau không ạ?",
                 "response": {
                     "username": "Tên Người Trả Lời",
-                    "responseTime": "19g30 27/10/2023",
+                    "responseTime": "19g30 27/10/2024",
                     "content": "Nếu không có quần tây đen, bạn có thể thay thế bằng quần tối mau như đen hoặc xanh đậm."
                 }
             },
@@ -29,7 +29,7 @@
                 "username": "Nhật Hà",
                 "role": "attendance",
                 "title": "Thắc mắc về nội dung công việc",
-                "threadTime": "19g02 27/10/2023",
+                "threadTime": "19g02 27/10/2024",
                 "content": "Cho mình hỏi công việc có yêu cầu chuẩn bị Laptop, không biết mình có cần phản tải chương trình gì trước để tiện cho ngày mai không?",
                 "response": null
             }
@@ -56,7 +56,7 @@
                 "content": "Nội dung thắc mắc 2",
                 "response": {
                     "username": "Người Trả Lời 2",
-                    "responseTime": "19g30 27/10/2023",
+                    "responseTime": "19g30 27/10/2024",
                     "content": "Nội dung trả lời 2"
                 }
             },

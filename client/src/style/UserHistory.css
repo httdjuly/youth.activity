@@ -16,7 +16,7 @@
 
 .history-title {
     font-size: 32px;
-    color: #3a65f6;
+    color: rgba(19, 53, 166, 1);
 }
 
 .sticky-header {
@@ -38,7 +38,7 @@
 
 .outer-box-dark {
     border-radius: 0 16px 16px 16px;
-    background-color: #3a65f6;
+    background-color: rgba(19, 53, 166, 1);
     /* margin: 0 0 2% 0; */
     width: 100%;
     display: flex;
@@ -49,13 +49,13 @@
 .history-tab-button {
     fill: #FFF;
     stroke-width: 2px;
-    stroke: #3A65F6;
+    stroke: rgba(19, 53, 166, 1);
     border-radius: 10px 10px 0px 0px;
     font-weight: 200;
 }
 
 .history-tab-button:active {
-    fill: #3A65F6;
+    fill: rgba(19, 53, 166, 1);
     stroke-width: 2px;
     stroke: #fff;
     border-radius: 10px 10px 0px 0px;

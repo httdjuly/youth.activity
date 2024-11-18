@@ -41,14 +41,14 @@ function UserInfo() {
             <div className="col-sm-4">
               <h6 className="mb-0 text-primary">Họ và tên</h6>
             </div>
-            <div className="col-sm-8 text-secondary">Nguyễn Trần Bảo Ngọc</div>
+            <div className="col-sm-8 text-secondary">Hoàng Thị Thùy Dương</div>
           </div>
           <hr />
           <div className="row flex-row">
             <div className="col-sm-4">
               <h6 className="mb-0 text-primary">Mã số sinh viên</h6>
             </div>
-            <div className="col-sm-8 text-secondary">2111860</div>
+            <div className="col-sm-8 text-secondary">22110303</div>
           </div>
           <hr />
           <div className="row flex-row">
@@ -56,7 +56,7 @@ function UserInfo() {
               <h6 className="mb-0 text-primary">Đơn vị trực thuộc</h6>
             </div>
             <div className="col-sm-8 text-secondary">
-              Khoa Khoa học và Kỹ thuật Máy Tính
+              Khoa Công nghệ Thông tin
             </div>
           </div>
           <hr />
@@ -71,7 +71,7 @@ function UserInfo() {
             <div className="col-sm-4">
               <h6 className="mb-0 text-primary">Ngày sinh</h6>
             </div>
-            <div className="col-sm-8 text-secondary">29/10/2003</div>
+            <div className="col-sm-8 text-secondary">14/07/2004</div>
           </div>
           <hr />
           <div className="row flex-row">
@@ -79,7 +79,7 @@ function UserInfo() {
               <h6 className="mb-0 text-primary">Email</h6>
             </div>
             <div className="col-sm-8 text-secondary">
-              ngoc.nguyentran@hcmut.edu.vn
+              22110303@student.hcmute.edu.vn
             </div>
           </div>
           <hr />

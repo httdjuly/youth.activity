@@ -70,7 +70,7 @@ function TrendStatistics() {
                     <img class="user-icon" src={user} />
 
                     <div class="user-infor">
-                        <div class="user-name">Cinamon</div>
+                        <div class="user-name">Thùy Dương</div>
                         <div class="user-role">Sinh viên</div>
                     </div>
 
@@ -87,12 +87,12 @@ function TrendStatistics() {
 
                 <div class="col-md-4 statistics-infor">
                     <div class="statistics-title">
-                        <Link class="statistics-title-link" to ="/activity-statistics">Xu hướng hoạt động năm 2022</Link>
+                        <Link class="statistics-title-link" to ="/activity-statistics">Xu hướng hoạt động năm   2024</Link>
                     </div>
 
                     <div class="statistics-result">
                         <p>10 hoạt động đã được tổ chức.</p>
-                        <p>Diễn ra tại 2 cơ sở.</p>
+                        <p>  </p>
                         <p>Thu hút 15 sinh viên tham gia.</p>
                     </div>
 

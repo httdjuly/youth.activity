@@ -26,7 +26,7 @@ function Navbar() {
         <div className="col-2 title-column nav">
             <NavLink className="item-line" to="/">
                 <img className="logo-BK" src={logo} alt="logoBK" />
-                <div className="web-name">HUHU</div>
+                <div className="web-name">YOUTH</div>
             </NavLink>
 
             <div className="links nav-top">

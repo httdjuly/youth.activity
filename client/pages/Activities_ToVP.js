@@ -98,7 +98,7 @@ function ActivityToVPListPage() {
                         <img class="user-icon" src={user} />
 
                         <div class="user-infor">
-                            <div class="user-name">Cinamon</div>
+                            <div class="user-name">Thùy Dương</div>
                             <div class="user-role">Tổ văn phòng</div>
                         </div>
 

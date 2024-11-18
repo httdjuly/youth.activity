@@ -60,7 +60,7 @@ function ActivityStatistics() {
                     <img class="user-icon" src={user} />
 
                     <div class="user-infor">
-                        <div class="user-name">Cinamon</div>
+                        <div class="user-name">Thùy Dương</div>
                         <div class="user-role">Sinh viên</div>
                     </div>
 
@@ -82,7 +82,7 @@ function ActivityStatistics() {
 
                     <div class="statistics-result">
                         <p>10 hoạt động đã được tổ chức.</p>
-                        <p>Diễn ra tại 2 cơ sở.</p>
+                        <p>  </p>
                         <p>Thu hút 15 sinh viên tham gia.</p>
                     </div>
 

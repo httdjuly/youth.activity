@@ -11,7 +11,7 @@
 .actbutton{
     fill: #FFF;
     stroke-width: 1px;
-    stroke: #3A65F6;
+    stroke: rgba(19, 53, 166, 1);
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -43,7 +43,7 @@
 .actresig-sinhvien{
     /* width: 135px; */
     font-size: large;
-    background: #3A65F6;
+    background: rgba(19, 53, 166, 1);
     color:#FFF;
     border-radius: 10px;
     border: 0.5px solid rgba(0, 0, 0, 0.30);
@@ -73,7 +73,7 @@
 
 .detailbutton{
     border-radius: 10px 10px 0px 0px;
-    stroke: #3A65F6;
+    stroke: rgba(19, 53, 166, 1);
     padding: 10px 8px;
     width: 150px;
     font-size: 13px;
@@ -81,7 +81,7 @@
 }
 
 .detailbutton:hover, .detailbutton:active {
-    background-color:  #3A65F6;
+    background-color: rgba(19, 53, 166, 1);
     
 }
 
@@ -92,12 +92,12 @@
 
 .actcontent {
     border-radius: 0px 16px 16px 16px;
-    background: #3A65F6;
+    background:rgba(19, 53, 166, 1);
     padding: 10px;
 }
 
 .detailbutton.active {
-    background-color: #3A65F6;
+    background-color:rgba(19, 53, 166, 1);
     color: #fff;
 }
 

@@ -80,7 +80,7 @@ function AdminHistoryPage() {
                                 <img class="user-icon" src={user} />
 
                                 <div class="user-infor">
-                                    <div class="user-name">Cinamon</div>
+                                    <div class="user-name">Thùy Dương</div>
                                     <div class="user-role">Admin</div>
                                 </div>
                             </div>
