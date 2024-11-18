@@ -1,0 +1,258 @@
+.statistics-body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-padding-right:-10px ;
+    padding-right: 7%;
+    padding-left: 5%;
+    margin: 5px;
+    height: 100vh;
+}
+
+
+.statistics-bar {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(230, 230, 230);
+    margin-top: 7%;
+    margin-bottom: 5%;
+    padding: 10px 10px 15px 10px;
+    
+}
+
+
+.statistics-bar-inside { 
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.statistics-infor {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.statistics-title {
+    color: rgb(58, 101, 246);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* padding-left: 2px; */
+    
+}
+
+.statistics-title-link {
+    color: rgb(58, 101, 246);
+}
+
+.statistics-title-link:hover {
+    text-decoration: none;
+}
+
+.statistics-result {
+    color: rgb(148, 148, 147);
+    margin-top: 2%;
+    padding-left: 10%;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.table-container {
+    background-color:  rgb(58, 101, 246);
+    border-radius: 10px;
+    padding: 5px;
+    padding-bottom: 15px;
+
+    min-height: 350px;
+    max-height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 15px 5%;
+    width: 100%;
+}
+
+.search-bar {
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+}
+
+.activity-roll {
+
+    width: 92%;
+    border: none; 
+    margin: auto;
+    margin-top: 0;
+    max-height: 300px;
+    display: block;
+    overflow: auto;
+
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 0;
+}
+
+.id {
+    column-width: 2%;
+    border-top-left-radius: 10px;
+}
+
+table.fixed {
+    /* height: 50%; */
+    /* overflow-y:auto; */
+    overflow: scroll;
+    max-width: 100px;
+    margin: 0;
+    table-layout: fixed;
+}
+
+.table {
+    /* width: 100%; */
+    margin: auto;
+    column-width: 16%;
+    border: 1px solid rgb(58, 101, 246);
+}
+
+tr {
+    padding-left: 1%;
+}
+
+th, td {    
+    background-color: white;
+    border-bottom: 1px solid black;
+    /* max-width: 80px; */
+    /* padding: 8px 8px; */
+}
+
+th {
+    color:rgb(58, 101, 246);
+}
+
+td {
+    color:rgb(108, 107, 107);
+    font-size: 14px;
+}
+
+.column-1 {
+    width: 10%;
+}
+
+.column-2 {
+    width: 15%;
+}
+
+.column-3 {
+    width: 21%;
+}
+
+.column-4 {
+    width: 12%;
+}
+
+.column-5 {
+    width: 15%;
+}
+
+.column-6 {
+    width: 27%;
+}
+
+
+.button-group {
+    display:flex;
+    justify-content: space-around;
+}
+
+.state {
+    border-top-right-radius: 10px;
+
+}
+
+.back-button {
+    color:rgb(58, 101, 246);
+    border-color: rgb(58, 101, 246);
+    font-weight: bold;
+    width: 100px;
+    margin-left: 2%;
+    
+}
+
+.back-button:hover {
+    background-color: rgb(58, 101, 246);
+
+}
+
+.print-button {
+    width: 140px;
+    font-weight: bold;
+    background-color: rgb(58, 101, 246);
+}
+
+.decentralise-title {
+    color:rgb(58, 101, 246);
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#decentralise-title-container-1 {
+    margin-top: 4%;
+    margin-bottom: 2%;
+    padding: 20px 20px 20px 10px;
+    max-height: fit-content;
+
+}
+
+.search-bar-decentralise-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.search-bar-decentralise {
+    border: 1px solid rgb(203, 203, 203);
+    width: 70%;
+    padding-left: 10px;
+    background-color: rgb(248, 248, 248);
+}
+
+
+/* Student-Account-List-Tab */
+.tab-table-container {
+    border-top-left-radius: 0;
+    min-height: 400px;
+    margin-bottom: 10%;
+}
+
+.tab {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    max-height: 500px;
+}
+
+/* .tab-table {
+    max-height: 500px;
+    overflow: scroll;
+    margin: 0;
+    table-layout: fixed;
+} */
+
+.decentralize-tab-button {
+    margin-top: 5%;
+    
+}
+
+.decent-buttons  {
+    margin-right: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-weight: bold;
+}

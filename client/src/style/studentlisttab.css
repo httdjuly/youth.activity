@@ -1,0 +1,22 @@
+.containtable {
+    width: 100%;
+    height: 470px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+    border-radius: 16px;
+    margin: 5px;
+}
+.studentlist {
+    max-height: 480px;
+    position: relative;
+    width:100%;
+    z-index: 1;
+
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+}

@@ -1,0 +1,28 @@
+.thislayout{
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.forumlayout{
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 16px;
+}
+
+.topic {
+    border: 1px solid #ccc;
+    padding: 10px; 
+    margin: 5px;
+    background-color: #FFF;
+    border-radius: 16px;
+}
+
+.buttonresg{
+    margin: 5px;
+    width: 120px;
+    
+}

@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "threads": [
+            {
+                "threadID": 1,
+                "username": "Minh Thuận",
+                "role": "host",
+                "title": "Thông báo",
+                "threadTime": "18g00 27/10/2023",
+                "content": "Các bạn ngày mai tập trung tại sảnh A3, trường Đại học Bách khoa cơ sở Lý Thường Kiệt trước 8g00 nhé. Trang phục lịch sự.",
+                "response": null
+            },
+            {
+                "threadID": 2,
+                "username": "Đỗ Tiến",
+                "role": "attendance",
+                "title": "Hỏi về trang phục",
+                "threadTime": "19g00 27/10/2023",
+                "content": "Cho mình hỏi nếu mình không chuẩn bị quần tây đen được thì có thể thay bằng quần tối mau không ạ?",
+                "response": {
+                    "username": "Tên Người Trả Lời",
+                    "responseTime": "19g30 27/10/2023",
+                    "content": "Nếu không có quần tây đen, bạn có thể thay thế bằng quần tối mau như đen hoặc xanh đậm."
+                }
+            },
+            {
+                "threadID": 3,
+                "username": "Nhật Hà",
+                "role": "attendance",
+                "title": "Thắc mắc về nội dung công việc",
+                "threadTime": "19g02 27/10/2023",
+                "content": "Cho mình hỏi công việc có yêu cầu chuẩn bị Laptop, không biết mình có cần phản tải chương trình gì trước để tiện cho ngày mai không?",
+                "response": null
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "threads": [
+            {
+                "threadID": 1,
+                "username": "Người Dùng 1",
+                "role": "attendance",
+                "title": "Tiêu đề 1",
+                "threadTime": "Thời gian 1",
+                "content": "Nội dung thắc mắc 1",
+                "response": null
+            },
+            {
+                "threadID": 2,
+                "username": "Người Dùng 2",
+                "role": "attendance",
+                "title": "Tiêu đề 2",
+                "threadTime": "Thời gian 2",
+                "content": "Nội dung thắc mắc 2",
+                "response": {
+                    "username": "Người Trả Lời 2",
+                    "responseTime": "19g30 27/10/2023",
+                    "content": "Nội dung trả lời 2"
+                }
+            },
+            {
+                "threadID": 3,
+                "username": "Người Dùng 3",
+                "role": "attendance",
+                "title": "Tiêu đề 3",
+                "threadTime": "Thời gian 3",
+                "content": "Nội dung thắc mắc 3",
+                "response": null
+            }
+        ]
+    }
+]

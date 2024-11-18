@@ -1,0 +1,153 @@
+[
+  {
+    "id": "1",
+    "basicInfo": {
+      "name": "Ăn bánh uống sữa đậu nành",
+      "createdBy": "Đỗ Tiến dễ thương",
+      "privileges": "0.5 ngày CTXH, 1 ĐRL",
+      "location": "Trường Đại học Bách khoa, cơ sở Dĩ An",
+      "time": "12:00 - 28/10/2023 đến 12:00 - 29/10/2023",
+      "member": 8,
+      "currentMember": "2",
+      "operationMode": "Duyệt",
+      "studentType": "Toàn bộ sinh viên trường Đại học Bách khoa - ĐHQG-HCM"
+    },
+    "description": "Đây là một tả hoạt động không dài không ngắn nhưng mà rất iu",
+    "criteria": [
+      "Là sinh viên nam",
+      "Có sức khỏe tốt",
+      "Có phương tiện di chuyển",
+      "Điện thoại có 4G"
+    ],
+    "contactInfo": {
+      "website": "https://www.facebook.com/BKCSE.Multimedia",
+      "phone": "+84 1234 5678 99 (Admin)",
+      "officeAddress": "Văn phòng Đoàn khoa KH&KTMT, BK.B6-602"
+    }
+  },
+  {
+    "id": "2",
+    "basicInfo": {
+      "name": "Chơi đùa cùng DSA",
+      "createdBy": "Nguyễn Văn Minh",
+      "privileges": "1 ngày CTXH, 2 ĐRL",
+      "location": "Trường Đại học ABC, cơ sở XYZ",
+      "time": "14:00 - 30/10/2023 đến 14:00 - 31/10/2023",
+      "member": 10,
+      "currentMember": "2",
+      "operationMode": "Tổ chức",
+      "studentType": "Toàn bộ sinh viên trường Đại học ABC"
+    },
+    "description": "Mô tả về hoạt động thứ hai",
+    "criteria": [
+      "Là sinh viên nữ",
+      "Có kinh nghiệm tổ chức sự kiện",
+      "Đam mê công việc xã hội"
+    ],
+    "contactInfo": {
+      "website": "https://www.facebook.com/ABCEvents",
+      "phone": "+84 9876 5432 10 (Event Coordinator)",
+      "officeAddress": "Văn phòng Đoàn khoa ABC, P.Q"
+    }
+  },
+  {
+    "id": "3",
+    "basicInfo": {
+      "name": "Cuộc hẹn bên tách trà",
+      "createdBy": "Nguyễn Thị Hương",
+      "privileges": "0.5 ngày CTXH, 1 ĐRL",
+      "location": "Trường Đại học XYZ, cơ sở MNO",
+      "time": "10:00 - 25/11/2023 đến 10:00 - 26/11/2023",
+      "member": 6,
+      "currentMember": "2",
+      "operationMode": "Duyệt",
+      "studentType": "Toàn bộ sinh viên trường Đại học XYZ"
+    },
+    "description": "Mô tả hoạt động thứ ba",
+    "criteria": [
+      "Là sinh viên nữ",
+      "Năng động, sáng tạo",
+      "Thích tham gia hoạt động xã hội"
+    ],
+    "contactInfo": {
+      "website": "https://www.facebook.com/XYZSocialClub",
+      "phone": "+84 9876 5432 11 (Coordinator)",
+      "officeAddress": "Văn phòng Đoàn khoa XYZ, L.K"
+    }
+  },
+  {
+    "id": "4",
+    "basicInfo": {
+      "name": "Hành trình hai vạn dặm chạy đồ án",
+      "createdBy": "Trần Đình Phúc",
+      "privileges": "0.7 ngày CTXH, 1.5 ĐRL",
+      "location": "Trường Đại học DEF, cơ sở PQR",
+      "time": "16:00 - 15/12/2023 đến 16:00 - 16/12/2023",
+      "member": 12,
+      "currentMember": "2",
+      "operationMode": "Tổ chức",
+      "studentType": "Toàn bộ sinh viên trường Đại học DEF"
+    },
+    "description": "Mô tả về hoạt động thứ tư",
+    "criteria": [
+      "Là sinh viên nữ",
+      "Sinh động, có tinh thần trách nhiệm",
+      "Thích làm việc nhóm"
+    ],
+    "contactInfo": {
+      "website": "https://www.facebook.com/DEFSocialEvents",
+      "phone": "+84 9876 5432 12 (Event Coordinator)",
+      "officeAddress": "Văn phòng Đoàn khoa DEF, H.S"
+    }
+  },
+  {
+    "id": "5",
+    "basicInfo": {
+      "name": "Sấy lông mèo một tiếng rưỡi",
+      "createdBy": "Lê Thị Linh",
+      "privileges": "0.8 ngày CTXH, 1.2 ĐRL",
+      "location": "Trường Đại học GHI, cơ sở STU",
+      "time": "11:30 - 20/01/2024 đến 11:30 - 21/01/2024",
+      "member": 15,
+      "currentMember": "2",
+      "operationMode": "Duyệt",
+      "studentType": "Toàn bộ sinh viên trường Đại học GHI"
+    },
+    "description": "Mô tả về hoạt động thứ năm",
+    "criteria": [
+      "Là sinh viên nữ",
+      "Yêu thích giao lưu, kết bạn",
+      "Nhiệt huyết, thích thú với công việc tình nguyện"
+    ],
+    "contactInfo": {
+      "website": "https://www.facebook.com/GHISocialConnect",
+      "phone": "+84 9876 5432 13 (Coordinator)",
+      "officeAddress": "Văn phòng Đoàn khoa GHI, F.R"
+    }
+  },
+  {
+    "id": "6",
+    "basicInfo": {
+      "name": "Tháng 5 có Sakamoto Days",
+      "createdBy": "Lê Thị Linh",
+      "privileges": "0.8 ngày CTXH, 1.2 ĐRL",
+      "location": "Trường Đại học GHI, cơ sở STU",
+      "time": "11:30 - 20/01/2024 đến 11:30 - 21/01/2024",
+      "member": 15,
+      "currentMember": "2",
+      "operationMode": "Duyệt",
+      "studentType": "Toàn bộ sinh viên trường Đại học GHI"
+    },
+    "description": "Mô tả về hoạt động thứ năm",
+    "criteria": [
+      "Là sinh viên nữ",
+      "Yêu thích giao lưu, kết bạn",
+      "Nhiệt huyết, thích thú với công việc tình nguyện"
+    ],
+    "contactInfo": {
+      "website": "https://www.facebook.com/GHISocialConnect",
+      "phone": "+84 9876 5432 13 (Coordinator)",
+      "officeAddress": "Văn phòng Đoàn khoa GHI, F.R"
+    }
+  }
+]

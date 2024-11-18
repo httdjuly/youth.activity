@@ -1,0 +1,106 @@
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px;
+    /* huh */
+}
+
+.attendencelayout {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-bar{
+    width: 25%;
+}
+
+.checkinbut{
+    background: var(--d-9-d-9-d-9, #5ADA86);
+    color: #fff;
+    margin-inline: 5px;
+}
+.rowcontet {
+    flex:1;
+    display: flex;
+    flex-direction: row;
+}
+.checkoutbut {
+    background: #FBBC04;
+    color: #fff;
+    margin-inline: 5px;
+}
+
+.contentleft1{
+    height: 100%;
+    background-color: #FFF;
+    margin: 5px;   
+    border-radius: 16px
+}
+.actdetail-title.titlecolum ,  .subcontent-detail.attend{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.headerrow {
+    font: black;
+}
+
+.tablecheck {
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+    margin: 5px;
+    border-radius: 16px;
+}
+
+.studentattendence {
+    max-height: 480px;
+    position: relative;
+    width:100%;
+    z-index: 3;
+
+}
+
+.studentattendence td, .studentattendence th {
+    padding: 0.75rem;
+    /* vertical-align: top; */
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.studentattendence {
+    /* width: 100%; */
+    margin: auto;
+    column-width: 16%;
+    border: 0;
+}
+
+.actdetail-title.titlecolum{
+    text-align: center;
+    font-size:larger;
+}
+
+.contentleft1 h3{
+    color: #3A65F6;
+    font-size: 18px;
+    font-weight: 300px;
+}
+
+.contentleft1 .subcontent-detail {
+    font-size: 20px;
+    font-weight: 350;
+}
+
+.attendinfor{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+    .contentright{
+        margin-left: 0px;
+        overflow-y: scroll;
+    }
+  }
