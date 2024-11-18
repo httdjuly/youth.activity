@@ -24,9 +24,9 @@ function StudentListTab(props) {
                     <tbody>
                         {studentsData.map((student, index) => (
                             <tr key={index}>
-                                <td>{student.ID}</td>
-                                <td>{student.Name}</td>
-                                <td>{student.StudentID}</td>
+                                <td>{index + 1}</td>
+                                <td>{student.name}</td>
+                                <td>{student.student_id}</td>
                                 <td>Sinh viên</td>
                                 <td>Đang hoạt động</td>
                             </tr>
