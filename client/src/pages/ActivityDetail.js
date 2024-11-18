@@ -19,9 +19,11 @@ import user from '../image/user.png';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Dropdown from 'react-bootstrap/Dropdown';
-
+import { useNavigate } from 'react-router-dom'; // Add this import
 function ActivityDetailPage() {
     let { id } = useParams();
+
+    const navigate = useNavigate(); // Declare navigate
 
     const [activityData, setActivityData] = useState({
         id: '',
@@ -98,6 +100,26 @@ function ActivityDetailPage() {
             });
 
         setShowConfirmation(false);
+    };
+
+    const handleDeleteActivity = (activityId) => {
+        fetch(`/api/activities/${activityId}`, {
+            method: 'DELETE',
+        })
+            .then((response) => {
+                if (response.ok) {
+                    alert('Activity deleted successfully!');
+                    navigate('/activities'); // Redirect to activity list after deletion
+                } else {
+                    throw new Error('Failed to delete activity');
+                }
+            })
+            .catch((error) => {
+                console.error('Error deleting activity:', error);
+                alert('Error deleting activity. Please try again.');
+            });
+
+        setShowDeleteActive(false); // Close the delete confirmation popup
     };
 
     const getUserRoleName = (role) => {
@@ -249,7 +271,7 @@ function ActivityDetailPage() {
                     <button type="button" className="actresig-tvp btn" onClick={() => setShowDeleteActive(true)}>
                         Xóa
                     </button>
-                    {showDeleteActive && <DeleteActivePopup />}
+                    {showDeleteActive && <DeleteActivePopup onDelete={() => handleDeleteActivity(id)} setShowDeleteActive={setShowDeleteActive}/>}
                 </>
             );
         }

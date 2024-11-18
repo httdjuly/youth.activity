@@ -1,20 +1,26 @@
-import React from 'react'
-import '../../style/popup.css'
-function DeleteActivePopup({ onConfirm }) {
+import React from 'react';
+
+function DeleteActivePopup({ onDelete, setShowDeleteActive }) {
     return (
-        <>
-        <div class="overplay">
-            <div class="popup">
-                <p class="popup_title">Bạn chắc chắn xóa hoạt động?</p>
-                <div class="popbutton">
-                <button class="buttonpopup btn btn-danger" onClick={onConfirm}>Từ chối</button>
-                <button class="buttonpopup btn btn-primary"onClick={onConfirm}>Đồng ý</button>
+        <div className="overplay">
+            <div className="popup">
+                <div className="popup-title">
+                    <h2>Xóa Hoạt Động</h2>
+                </div>
+                <div className="popup-body">
+                    <p>Bạn có chắc chắn muốn xóa hoạt động này không?</p>
+                </div>
+                <div className="popbutton">
+                    <button onClick={() => onDelete()} className="buttonpopup btn btn-danger">
+                        Xóa
+                    </button>
+                    {/* You can manage closing the popup in the parent component */}
+                    <button onClick={() => setShowDeleteActive(false)} className="buttonpopup btn btn-primary">
+                        Hủy
+                    </button>
                 </div>
             </div>
-
         </div>
-        </>
-        
     );
 }
 
