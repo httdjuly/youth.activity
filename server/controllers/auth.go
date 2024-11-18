@@ -15,6 +15,7 @@ type AuthController interface {
 	Logout(c *gin.Context)
 	CheckAuth(c *gin.Context)
 	GetRole(c *gin.Context)
+	GetCurrentUser(c *gin.Context)
 }
 
 type authControllerImpl struct {
@@ -117,4 +118,18 @@ func (ac *authControllerImpl) GetRole(c *gin.Context) {
 
 	// Trả về role của user
 	c.JSON(http.StatusOK, gin.H{"role": authenticatedUser.Role})
+}
+
+func (ac *authControllerImpl) GetCurrentUser(c *gin.Context) {
+	user, ok := c.Get("user")
+	if !ok {
+		c.JSON(http.StatusUnauthorized, gin.H{"error": "unauthorized"})
+		return
+	}
+
+	// Ép kiểu user về *models.User
+	authenticatedUser, ok := user.(*models.User)
+
+	// Trả về role của user
+	c.JSON(http.StatusOK, gin.H{"user": authenticatedUser})
 }

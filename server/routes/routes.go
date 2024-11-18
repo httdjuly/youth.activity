@@ -4,6 +4,7 @@ import (
 	"youth_activity/controllers"
 	"youth_activity/database"
 	"youth_activity/middlewares"
+	"youth_activity/models"
 	"youth_activity/repositories"
 	"youth_activity/usecases"
 
@@ -35,6 +36,7 @@ func SetupRouter(r *gin.Engine) {
 	author.Use(middlewares.AuthMiddleware(authUsecase))
 	{
 		author.GET("/role", authController.GetRole)
+		author.GET("/current-user", authController.GetCurrentUser)
 	}
 
 	user := router.Group("/users")
@@ -55,24 +57,23 @@ func SetupRouter(r *gin.Engine) {
 		activity.POST("", controller.CreateActivity)
 		activity.PUT("/:id", controller.UpdateActivity)
 		activity.DELETE("/:id", controller.DeleteActivity)
+		activity.POST("/:id/attend", controller.AttendActivity)
 	}
 
-	// public.POST("/register", controllers.RegisterHandler)
-	// public.POST("/login", controllers.LoginHandler)
-	// public.POST("/logout", controllers.Logout)
+	authUsecase.Register(&models.User{
+		Id: 99,
+		Email: "manager@gmail.com",
+		Username: "manager",
+		Password: "123456",
+		Role: "manager",
+	})
 
-	// public.GET("/check-auth", func(c *gin.Context) {
-	// 	if utils.CheckAuthToken(c) {
-	// 		c.JSON(200, gin.H{"message": "Đã đăng nhập"})
-	// 	} else {
-	// 		c.JSON(400, gin.H{"message": "Chưa đăng nhập"})
-	// 	}
-	// })
-	// public.GET("/get-role", controllers.HandleGetRole)
-	// public.POST("/regist-activity", controllers.CreateActivity)
-	// public.GET("/get-activities", controllers.GetActivitiesWithStatus)
-	// public.GET("/activity/:id", controllers.GetActivityByID)
-	// public.POST("/register-activity", controllers.RegisterActivity)
-	// public.GET("/account", controllers.GetAllUsersHandler)
-	// public.GET("/attendance/:id", controllers.GetUserListByActivityID)
+	
+	authUsecase.Register(&models.User{
+		Id: 100,
+		Email: "student@gmail.com",
+		Username: "student",
+		Password: "123456",
+		Role: "student",
+	})
 }

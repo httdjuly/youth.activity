@@ -54,7 +54,7 @@ func (c *ActivityController) CreateActivity(ctx *gin.Context) {
 		ctx.JSON(http.StatusBadRequest, gin.H{"error": "Invalid request body"})
 		return
 	}
-	
+
 	user, ok := ctx.Get("user")
 	if !ok {
 		ctx.JSON(http.StatusUnauthorized, gin.H{"error": "unauthorized"})
@@ -115,4 +115,32 @@ func (c *ActivityController) DeleteActivity(ctx *gin.Context) {
 	}
 
 	ctx.JSON(http.StatusOK, gin.H{"message": "Activity deleted successfully"})
+}
+
+func (c *ActivityController) AttendActivity(ctx *gin.Context) {
+	id, err := strconv.Atoi(ctx.Param("id"))
+	if err != nil {
+		ctx.JSON(http.StatusBadRequest, gin.H{"error": "Invalid activity ID"})
+		return
+	}
+
+	user, ok := ctx.Get("user")
+	if !ok {
+		ctx.JSON(http.StatusUnauthorized, gin.H{"error": "unauthorized"})
+		return
+	}
+
+	// Ép kiểu user về *models.User
+	authenticatedUser, ok := user.(*models.User)
+	if !ok {
+		ctx.JSON(http.StatusInternalServerError, gin.H{"error": "invalid user data"})
+		return
+	}
+
+	if err := c.service.AttendActivity(authenticatedUser, id); err != nil {
+		ctx.JSON(http.StatusNotFound, err)
+		return
+	}
+
+	ctx.JSON(http.StatusOK, gin.H{"message": "Activity attend successfully"})
 }

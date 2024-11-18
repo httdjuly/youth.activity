@@ -58,17 +58,17 @@ function ActivityDetailPage() {
             .then((response) => response.json())
             .then((data) => {
                 setActivityData(data);
+                setStudentsData(data.attendance);
             })
             .catch((error) => console.error('Error fetching activity data:', error));
 
-        fetch(`/api/attendance/${id}`, {
-            method: 'GET',
-        })
-            .then((response) => response.json())
-            .then((data) => {
-                setStudentsData(data.user_list);
-            })
-            .catch((error) => console.error('Error fetching attendance data:', error));
+        // fetch(`/api/attendance/${id}`, {
+        //     method: 'GET',
+        // })
+        //     .then((response) => response.json())
+        //     .then((data) => {
+        //     })
+        //     .catch((error) => console.error('Error fetching attendance data:', error));
     }, [id]);
 
     const [showApproveActive, setShowApproveActive] = useState(false);
@@ -77,7 +77,7 @@ function ActivityDetailPage() {
     const [showUpdateActive, setShowUpdateActive] = useState(false);
 
     const handleConfirmRegistration = () => {
-        fetch(`/api/register-activity`, {
+        fetch(`/api/activities/${id}/attend`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -132,7 +132,7 @@ function ActivityDetailPage() {
                                 <img className="user-icon" src={user} alt="User Icon" />
 
                                 <div className="user-infor">
-                                    <div className="user-name">{activityData.host.username}</div>
+                                    <div className="user-name">{activityData.host.name}</div>
                                     <div className="user-role">{getUserRoleName(role)}</div>
                                 </div>
                             </div>
@@ -153,7 +153,7 @@ function ActivityDetailPage() {
                     </div>
                     <div className="r2c2">
                         <div className="actnumber">
-                            {activityData.currentNumber}/{activityData.numberOfPeople}
+                            {activityData.currentNumber}/{activityData.number_members}
                         </div>
                         <SelectButton />
                     </div>
