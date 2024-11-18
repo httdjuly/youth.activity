@@ -36,6 +36,7 @@ func SetupRouter(r *gin.Engine) {
 	author.Use(middlewares.AuthMiddleware(authUsecase))
 	{
 		author.GET("/role", authController.GetRole)
+		author.GET("/current-user", authController.GetCurrentUser)
 	}
 
 	user := router.Group("/users")

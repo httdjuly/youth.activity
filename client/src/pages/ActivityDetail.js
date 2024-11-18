@@ -62,13 +62,13 @@ function ActivityDetailPage() {
             })
             .catch((error) => console.error('Error fetching activity data:', error));
 
-        fetch(`/api/attendance/${id}`, {
-            method: 'GET',
-        })
-            .then((response) => response.json())
-            .then((data) => {
-            })
-            .catch((error) => console.error('Error fetching attendance data:', error));
+        // fetch(`/api/attendance/${id}`, {
+        //     method: 'GET',
+        // })
+        //     .then((response) => response.json())
+        //     .then((data) => {
+        //     })
+        //     .catch((error) => console.error('Error fetching attendance data:', error));
     }, [id]);
 
     const [showApproveActive, setShowApproveActive] = useState(false);
@@ -153,7 +153,7 @@ function ActivityDetailPage() {
                     </div>
                     <div className="r2c2">
                         <div className="actnumber">
-                            {activityData.currentNumber}/{activityData.numberOfPeople}
+                            {activityData.currentNumber}/{activityData.number_members}
                         </div>
                         <SelectButton />
                     </div>

@@ -22,6 +22,26 @@ import {
 
 
 function Navbar() {
+    const handleLogout = async () => {
+        try {
+            const response = await fetch('/api/auth/logout', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${localStorage.getItem('token')}`, // Giả sử bạn lưu token trong localStorage
+                },
+            });
+
+            if (!response.ok) {
+                throw new Error('Logout failed');
+            }
+
+            // Nếu đăng xuất thành công, chuyển hướng đến trang login
+            window.location.href = '/login';  // Chuyển hướng người dùng đến trang login
+        } catch (error) {
+            console.error("Error logging out", error);
+        }
+    };
     return (
         <div className="col-2 title-column nav">
             <NavLink className="item-line" to="/">
@@ -52,7 +72,7 @@ function Navbar() {
             </div>
 
             <div className="links nav-bottom">
-                <NavLink className="nav-link" to="/">
+                <NavLink className="nav-link" onClick={handleLogout}>
                     <FaSignOutAlt size={20} />
                     <span>Đăng xuất</span>
                 </NavLink>

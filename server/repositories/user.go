@@ -49,7 +49,7 @@ func (r *userRepositoryImpl) FindAll() ([]*models.User, error) {
 // FindByEmail tìm user theo email
 func (r *userRepositoryImpl) FindByEmail(email string) (*models.User, error) {
 	var user models.User
-	err := r.db.Where("email = ?", email).First(&user).Error
+	err := r.db.Preload("Activities").Where("email = ?", email).First(&user).Error
 	if err != nil {
 		return nil, err
 	}
